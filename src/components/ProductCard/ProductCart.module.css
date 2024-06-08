@@ -1,0 +1,57 @@
+.card-button {
+  text-transform: none;
+  font-weight: 600;
+}
+
+.favoriteIconContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 8px;
+}
+
+.card {
+  max-width: 300px;
+  min-width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.cardActions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.card:hover .cardActions {
+  opacity: 1;
+}
+
+.cardActionButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 2;
+}

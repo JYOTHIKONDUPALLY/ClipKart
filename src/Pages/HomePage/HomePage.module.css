@@ -1,0 +1,41 @@
+.homepage {
+  position: relative;
+}
+
+.text {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  left: 20vw;
+}
+.container {
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.filterButtonContainer {
+  display: none;
+}
+
+.filterContainer {
+  display: block;
+}
+
+.drawerContent {
+  width: 250px;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .filterButtonContainer {
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 7%;
+    left: 10px;
+  }
+
+  .filterContainer {
+    display: none;
+  }
+}

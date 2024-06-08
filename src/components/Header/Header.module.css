@@ -1,0 +1,39 @@
+.banner {
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.header {
+  background-color: rgb(18, 33, 33);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logo {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo > span {
+  font-style: italic;
+  margin-left: 5px;
+  color: yellow;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 20px;
+}
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 0 20px;
+  font-size: 20px;
+}
